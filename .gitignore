@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+
+# Raw telemetry and generated evidence
+manifestations_filtered/
+rca_output/
+attacker/
+**/logs/
+*.log
+*.jsonl
+
+# Local Python files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local/editor files
+.vscode/
+.idea/
+*.ipynb_checkpoints/
